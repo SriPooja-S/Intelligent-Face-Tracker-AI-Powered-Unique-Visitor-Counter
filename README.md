@@ -15,7 +15,25 @@
 > *
 
 ---
-## Screenshots
+## 📸 Screenshots
+
+### 🖥️ Dashboard Overview
+![Dashboard](1.png)
+
+### 🎯 Face Detection & Tracking
+![Detection](2.png)
+
+### 🧠 Face Recognition (ArcFace Embeddings)
+![Recognition](3.png)
+
+### 🗂️ Registered Faces
+![Entries](4.png)
+
+### 📊 Events Log View
+![Registered faces](5.png)
+
+### 📈 Visitor Stats
+![Stats](6.png)
 
 ## 📋 Overview
 
