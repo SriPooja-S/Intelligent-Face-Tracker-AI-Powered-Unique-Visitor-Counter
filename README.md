@@ -26,13 +26,13 @@
 ### 🧠 Face Recognition (ArcFace Embeddings)
 ![Recognition](3.png)
 
-### 🗂️ Registered Faces
+### 🗂️ Entries
 ![Entries](4.png)
 
-### 📊 Events Log View
+### 📊 Registered faces
 ![Registered faces](5.png)
 
-### 📈 Visitor Stats
+### 📈 Unique Visitor Stats
 ![Stats](6.png)
 
 ## 📋 Overview
