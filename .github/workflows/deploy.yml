@@ -2,6 +2,7 @@ name: Sync to Hugging Face Spaces
 on:
   push:
     branches: [main]
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -14,11 +15,19 @@ jobs:
           fetch-depth: 0
           lfs: true
 
-      - name: Push to Hub
+      - name: Check git remote
+        run: git remote -v
+
+      - name: Authenticate and Push to Hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
           HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
-          git remote add hf https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME
-          git push --force hf main
+          # Configure remote 'hf' or update it if it already exists
+          git remote add hf https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME || \
+          git remote set-url hf https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME
+          
+          # Force push to overwrite divergent history on the Space
+          # --no-verify skips any local hooks that might block the action
+          git push --force --no-verify hf main
