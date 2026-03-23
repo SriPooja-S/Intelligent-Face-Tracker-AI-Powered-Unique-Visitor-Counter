@@ -1,0 +1,45 @@
+{
+  "video_source": "video_sample1.mp4",
+  "rtsp_url": "rtsp://username:password@camera_ip:554/stream",
+  "use_rtsp": false,
+  "detection": {
+    "yolo_model": "yolov8n.pt",
+    "confidence_threshold": 0.65,
+    "frame_skip": 3,
+    "input_size": 640
+  },
+  "recognition": {
+    "model_name": "buffalo_l",
+    "similarity_threshold": 0.35,
+    "soft_threshold": 0.28,
+    "embedding_size": 512,
+    "det_size": [
+      640,
+      640
+    ]
+  },
+  "tracking": {
+    "max_age": 30,
+    "min_hits": 2,
+    "iou_threshold": 0.3,
+    "exit_patience_frames": 15
+  },
+  "logging": {
+    "log_dir": "logs",
+    "log_file": "logs/events.log",
+    "log_level": "INFO",
+    "save_face_crops": true,
+    "crop_size": [
+      112,
+      112
+    ]
+  },
+  "database": {
+    "path": "face_tracker.db"
+  },
+  "display": {
+    "show_window": false,
+    "window_name": "Face Tracker",
+    "draw_bboxes": true
+  }
+}
