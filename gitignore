@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Model weights (large files — download separately)
+*.pt
+*.onnx
+*.bin
+
+# Database (generated at runtime)
+face_tracker.db
+
+# Log images (generated at runtime — keep folder structure only)
+logs/entries/*/
+logs/exits/*/
+logs/registered/*/
+logs/events.log
+
+# InsightFace downloaded models
+~/.insightface/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# IDE
+.vscode/settings.json
+.idea/

@@ -1,0 +1,23 @@
+# Core CV & AI
+opencv-python>=4.8.0
+ultralytics>=8.0.0          # YOLOv8
+insightface>=0.7.3          # ArcFace via InsightFace
+onnxruntime-gpu>=1.16.0     # GPU inference for InsightFace (use onnxruntime for CPU-only)
+numpy>=1.24.0
+
+# Tracking
+deep_sort_realtime>=1.3.2
+
+# Database
+# SQLite3 is built into Python — no extra install needed
+
+# Utilities
+Pillow>=10.0.0
+scipy>=1.11.0               # cosine similarity fallback
+
+# Optional: Web UI (bonus feature)
+flask>=3.0.0
+
+# For Google Colab / GPU environment
+# Run: pip install onnxruntime-gpu  (if GPU available)
+# Run: pip install onnxruntime      (CPU fallback)
