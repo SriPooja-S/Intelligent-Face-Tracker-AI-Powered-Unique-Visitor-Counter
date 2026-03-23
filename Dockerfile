@@ -8,22 +8,23 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-# Copy requirements and install (CPU-only — no GPU on HF free tier)
+# Copy requirements first to leverage Docker caching
 COPY requirements.txt .
-RUN pip install --no-cache-dir \
-    flask \
-    opencv-python-headless \
-    Pillow \
-    && echo "Base deps installed"
+
+# We must install CPU-only versions of onnx and insightface for Hugging Face free tier.
+# We also explicitly install the requirements list.
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip uninstall -y onnxruntime-gpu
+RUN pip install --no-cache-dir onnxruntime
 
 # Copy all project files
 COPY . .
 
-# Create log directories
+# Ensure log directories exist (even though they are in the repo, this is safe)
 RUN mkdir -p logs/entries logs/exits logs/registered
 
-# HuggingFace Spaces uses port 7860
+# Hugging Face Spaces exposes port 7860
 EXPOSE 7860
 
-# Run the dashboard-only mode (no video processing on HF — just shows the UI)
+# Run the dashboard-only mode
 CMD ["python", "app_hf.py"]

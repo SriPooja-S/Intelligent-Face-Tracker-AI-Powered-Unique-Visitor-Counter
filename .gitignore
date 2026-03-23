@@ -13,8 +13,6 @@ __pycache__/
 *.pt
 *.onnx
 
-# Database (generated at runtime — but keep sample below)
-face_tracker.db
 
 # Video files (too large)
 *.mp4
