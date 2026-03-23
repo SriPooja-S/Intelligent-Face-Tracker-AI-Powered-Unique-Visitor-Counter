@@ -11,9 +11,9 @@
 
 ## 🎬 Demo Video
 
-> 📹 **[Click here to watch the full demo on YouTube/Loom](YOUR_VIDEO_LINK_HERE)**
+> 📹 **[Click here to watch the full demo on YouTube/Loom](https://www.loom.com/share/f3dc80ce9b234a46b7ccaf532592a393)**
 >
-> ⚠️ *Submission will not be reviewed without this video link.*
+> *
 
 ---
 
