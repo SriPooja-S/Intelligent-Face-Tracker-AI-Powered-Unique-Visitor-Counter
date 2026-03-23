@@ -290,7 +290,7 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 ## 🎬 Demo Video
 
 ```
-Demo Video: <Add Loom or YouTube link here>
+**[Click here to watch the full demo on ScreenApp](https://screenapp.io/app/v/1N2yn56c8z)**
 ```
 
 ---
