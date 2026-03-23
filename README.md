@@ -11,11 +11,29 @@
 
 ## 🎬 Demo Video
 
-> 📹 **[Click here to watch the full demo on YouTube/Loom](YOUR_VIDEO_LINK_HERE)**
->
-> ⚠️ *Submission will not be reviewed without this video link.*
+> 📹 **[Click here to watch the full demo on ScreenApp](https://screenapp.io/app/v/1N2yn56c8z)**
+> *
 
 ---
+## 📸 Screenshots
+
+### 🖥️ Dashboard Overview
+![Dashboard](1.png)
+
+### 🎯 Face Detection & Tracking
+![Detection](2.png)
+
+### 🧠 Face Recognition (ArcFace Embeddings)
+![Recognition](3.png)
+
+### 🗂️ Entries
+![Entries](4.png)
+
+### 📊 Registered faces
+![Registered faces](5.png)
+
+### 📈 Unique Visitor Stats
+![Stats](6.png)
 
 ## 📋 Overview
 
