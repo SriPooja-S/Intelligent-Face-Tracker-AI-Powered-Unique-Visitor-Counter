@@ -3,15 +3,15 @@
   "rtsp_url": "rtsp://username:password@camera_ip:554/stream",
   "use_rtsp": false,
   "detection": {
-    "yolo_model": "yolov8n.pt",
-    "confidence_threshold": 0.65,
-    "frame_skip": 3,
+    "yolo_model": "yolov8n-face.pt",
+    "confidence_threshold": 0.45,
+    "frame_skip": 2,
     "input_size": 640
   },
   "recognition": {
     "model_name": "buffalo_l",
-    "similarity_threshold": 0.35,
-    "soft_threshold": 0.28,
+    "similarity_threshold": 0.3,
+    "soft_threshold": 0.25,
     "embedding_size": 512,
     "det_size": [
       640,
@@ -43,3 +43,4 @@
     "draw_bboxes": true
   }
 }
+

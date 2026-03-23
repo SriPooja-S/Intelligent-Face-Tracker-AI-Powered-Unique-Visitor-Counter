@@ -1,0 +1,1800 @@
+2026-03-23 17:36:25 [INFO] [detector] Loading YOLO model: yolov8n-face.pt
+2026-03-23 17:36:25 [INFO] [detector] YOLO model loaded.
+2026-03-23 17:36:25 [INFO] [embedder] Loading InsightFace model: buffalo_l
+2026-03-23 17:36:26 [INFO] [embedder] InsightFace model loaded.
+2026-03-23 17:36:27 [INFO] [tracker] DeepSort.update_tracks params: ['self', 'raw_detections', 'embeds', 'frame', 'today', 'others', 'instance_masks']
+2026-03-23 17:36:27 [INFO] [tracker] DeepSORT initialised — mode=embeds_kwarg, max_age=30, min_hits=2
+2026-03-23 17:36:27 [INFO] [tracker] DeepSORT API test passed.
+2026-03-23 17:36:27 [WARNING] [tracker] DeepSORT update failed (Embedder not created during init so embeddings must be given now!). Falling back to SimpleTracker.
+2026-03-23 17:36:27 [INFO] [simple_tracker] SimpleTracker initialised — max_age=30, min_hits=2, iou=0.3
+2026-03-23 17:36:27 [INFO] [database] Database initialised at: face_tracker.db
+2026-03-23 17:36:27 [INFO] [face_registry] Gallery loaded: 0 face(s) restored from DB.
+2026-03-23 17:36:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:30 [INFO] [face_registry] New face: face_20260323_173630_e187e3 | gallery size: 1
+2026-03-23 17:36:30 [INFO] [database] DB: Registered face_20260323_173630_e187e3
+2026-03-23 17:36:30 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173630_e187e3 | Timestamp: 2026-03-23 17:36:30 | Image: logs/registered/2026-03-23/face_20260323_173630_e187e3_173630_810.jpg
+2026-03-23 17:36:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:30 [INFO] [face_registry] New face: face_20260323_173630_9ea6b0 | gallery size: 2
+2026-03-23 17:36:30 [INFO] [database] DB: Registered face_20260323_173630_9ea6b0
+2026-03-23 17:36:30 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:36:30 | Image: logs/registered/2026-03-23/face_20260323_173630_9ea6b0_173630_895.jpg
+2026-03-23 17:36:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:30 [INFO] [face_registry] New face: face_20260323_173630_cade46 | gallery size: 3
+2026-03-23 17:36:30 [INFO] [database] DB: Registered face_20260323_173630_cade46
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173630_cade46 | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173630_cade46_173630_977.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_3d5d2e | gallery size: 4
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_3d5d2e
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_3d5d2e_173631_065.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_fe88b9 | gallery size: 5
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_fe88b9
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_fe88b9 | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_fe88b9_173631_271.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_e023ba | gallery size: 6
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_e023ba
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_e023ba_173631_450.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_808743 | gallery size: 7
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_808743
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_808743 | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_808743_173631_518.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_ee3bbc | gallery size: 8
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_ee3bbc
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_ee3bbc_173631_583.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_bd5938 | gallery size: 9
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_bd5938
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_bd5938 | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_bd5938_173631_681.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [face_registry] New face: face_20260323_173631_210b0f | gallery size: 10
+2026-03-23 17:36:31 [INFO] [database] DB: Registered face_20260323_173631_210b0f
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173631_210b0f | Timestamp: 2026-03-23 17:36:31 | Image: logs/registered/2026-03-23/face_20260323_173631_210b0f_173631_746.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173630_e187e3
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173630_9ea6b0
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173630_cade46
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_3d5d2e
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_3d5d2e
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_fe88b9
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_e023ba
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_808743
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_ee3bbc
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_bd5938
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_210b0f
+2026-03-23 17:36:31 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_3d5d2e
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173630_e187e3 | Timestamp: 2026-03-23 17:36:31 | Image: logs/entries/2026-03-23/face_20260323_173630_e187e3_173631_908.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:36:31 | Image: logs/entries/2026-03-23/face_20260323_173630_9ea6b0_173631_925.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173630_cade46 | Timestamp: 2026-03-23 17:36:31 | Image: logs/entries/2026-03-23/face_20260323_173630_cade46_173631_946.jpg
+2026-03-23 17:36:31 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:36:31 | Image: logs/entries/2026-03-23/face_20260323_173631_3d5d2e_173631_976.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_3d5d2e_173631_993.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_fe88b9 | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_fe88b9_173632_012.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_e023ba_173632_046.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_808743 | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_808743_173632_084.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_ee3bbc_173632_112.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_bd5938 | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_bd5938_173632_137.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_210b0f | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_210b0f_173632_169.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:36:32 | Image: logs/entries/2026-03-23/face_20260323_173631_3d5d2e_173632_192.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [face_registry] New face: face_20260323_173632_43db01 | gallery size: 11
+2026-03-23 17:36:32 [INFO] [database] DB: Registered face_20260323_173632_43db01
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:36:32 | Image: logs/registered/2026-03-23/face_20260323_173632_43db01_173632_762.jpg
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [face_registry] New face: face_20260323_173633_426b96 | gallery size: 12
+2026-03-23 17:36:33 [INFO] [database] DB: Registered face_20260323_173633_426b96
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173633_426b96 | Timestamp: 2026-03-23 17:36:33 | Image: logs/registered/2026-03-23/face_20260323_173633_426b96_173633_760.jpg
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173633_426b96
+2026-03-23 17:36:34 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173630_cade46
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173633_426b96 | Timestamp: 2026-03-23 17:36:34 | Image: logs/entries/2026-03-23/face_20260323_173633_426b96_173634_396.jpg
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173630_cade46 | Timestamp: 2026-03-23 17:36:34 | Image: logs/entries/2026-03-23/face_20260323_173630_cade46_173634_419.jpg
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [face_registry] New face: face_20260323_173635_067d30 | gallery size: 13
+2026-03-23 17:36:35 [INFO] [database] DB: Registered face_20260323_173635_067d30
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173635_067d30 | Timestamp: 2026-03-23 17:36:35 | Image: logs/registered/2026-03-23/face_20260323_173635_067d30_173635_381.jpg
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:36 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_fe88b9
+2026-03-23 17:36:36 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_fe88b9 | Timestamp: 2026-03-23 17:36:36 | Image: logs/entries/2026-03-23/face_20260323_173631_fe88b9_173636_745.jpg
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [face_registry] New face: face_20260323_173637_fcc90a | gallery size: 14
+2026-03-23 17:36:37 [INFO] [database] DB: Registered face_20260323_173637_fcc90a
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173637_fcc90a | Timestamp: 2026-03-23 17:36:37 | Image: logs/registered/2026-03-23/face_20260323_173637_fcc90a_173637_739.jpg
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:37 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173630_9ea6b0
+2026-03-23 17:36:37 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173637_fcc90a
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:36:37 | Image: logs/entries/2026-03-23/face_20260323_173630_9ea6b0_173637_891.jpg
+2026-03-23 17:36:37 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173637_fcc90a | Timestamp: 2026-03-23 17:36:37 | Image: logs/entries/2026-03-23/face_20260323_173637_fcc90a_173637_910.jpg
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:38 [INFO] [face_registry] New face: face_20260323_173638_001e76 | gallery size: 15
+2026-03-23 17:36:38 [INFO] [database] DB: Registered face_20260323_173638_001e76
+2026-03-23 17:36:38 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173638_001e76 | Timestamp: 2026-03-23 17:36:38 | Image: logs/registered/2026-03-23/face_20260323_173638_001e76_173638_879.jpg
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [face_registry] New face: face_20260323_173640_aaab77 | gallery size: 16
+2026-03-23 17:36:40 [INFO] [database] DB: Registered face_20260323_173640_aaab77
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:36:40 | Image: logs/registered/2026-03-23/face_20260323_173640_aaab77_173640_604.jpg
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173640_aaab77
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:36:40 | Image: logs/entries/2026-03-23/face_20260323_173640_aaab77_173640_698.jpg
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [face_registry] New face: face_20260323_173645_fb5d51 | gallery size: 17
+2026-03-23 17:36:45 [INFO] [database] DB: Registered face_20260323_173645_fb5d51
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:36:45 | Image: logs/registered/2026-03-23/face_20260323_173645_fb5d51_173645_175.jpg
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:47 [INFO] [face_registry] New face: face_20260323_173647_302a7b | gallery size: 18
+2026-03-23 17:36:48 [INFO] [database] DB: Registered face_20260323_173647_302a7b
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173647_302a7b | Timestamp: 2026-03-23 17:36:48 | Image: logs/registered/2026-03-23/face_20260323_173647_302a7b_173647_985.jpg
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173647_302a7b
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173647_302a7b | Timestamp: 2026-03-23 17:36:48 | Image: logs/entries/2026-03-23/face_20260323_173647_302a7b_173648_538.jpg
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:49 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173632_43db01
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:36:50 | Image: logs/entries/2026-03-23/face_20260323_173632_43db01_173649_989.jpg
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [face_registry] New face: face_20260323_173650_d5b475 | gallery size: 19
+2026-03-23 17:36:50 [INFO] [database] DB: Registered face_20260323_173650_d5b475
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173650_d5b475 | Timestamp: 2026-03-23 17:36:50 | Image: logs/registered/2026-03-23/face_20260323_173650_d5b475_173650_653.jpg
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173650_d5b475
+2026-03-23 17:36:51 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:36:51 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173640_aaab77
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173650_d5b475 | Timestamp: 2026-03-23 17:36:51 | Image: logs/entries/2026-03-23/face_20260323_173650_d5b475_173651_385.jpg
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:36:51 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173651_417.jpg
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:36:51 | Image: logs/entries/2026-03-23/face_20260323_173640_aaab77_173651_441.jpg
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173638_001e76
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173638_001e76 | Timestamp: 2026-03-23 17:36:52 | Image: logs/entries/2026-03-23/face_20260323_173638_001e76_173652_729.jpg
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:53 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173630_e187e3
+2026-03-23 17:36:53 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173630_e187e3 | Timestamp: 2026-03-23 17:36:53 | Dwell Time: 22s | Image: logs/exits/2026-03-23/face_20260323_173630_e187e3_173653_943.jpg
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_e023ba
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:36:55 | Image: logs/entries/2026-03-23/face_20260323_173631_e023ba_173655_041.jpg
+2026-03-23 17:36:55 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173633_426b96
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173633_426b96 | Timestamp: 2026-03-23 17:36:55 | Dwell Time: 21s | Image: logs/exits/2026-03-23/face_20260323_173633_426b96_173655_158.jpg
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:36:56 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173656_190.jpg
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173640_aaab77
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:36:57 | Image: logs/entries/2026-03-23/face_20260323_173640_aaab77_173657_366.jpg
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [face_registry] New face: face_20260323_173658_9e6df1 | gallery size: 20
+2026-03-23 17:36:58 [INFO] [database] DB: Registered face_20260323_173658_9e6df1
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173658_9e6df1 | Timestamp: 2026-03-23 17:36:58 | Image: logs/registered/2026-03-23/face_20260323_173658_9e6df1_173658_523.jpg
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:36:59 | Dwell Time: 3s | Image: logs/exits/2026-03-23/face_20260323_173645_fb5d51_173659_804.jpg
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:36:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [face_registry] New face: face_20260323_173700_ad915a | gallery size: 21
+2026-03-23 17:37:00 [INFO] [database] DB: Registered face_20260323_173700_ad915a
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173700_ad915a | Timestamp: 2026-03-23 17:37:00 | Image: logs/registered/2026-03-23/face_20260323_173700_ad915a_173700_023.jpg
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:01 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173701_048.jpg
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [face_registry] New face: face_20260323_173701_9f456a | gallery size: 22
+2026-03-23 17:37:01 [INFO] [database] DB: Registered face_20260323_173701_9f456a
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173701_9f456a | Timestamp: 2026-03-23 17:37:01 | Image: logs/registered/2026-03-23/face_20260323_173701_9f456a_173701_866.jpg
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:06 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_e023ba
+2026-03-23 17:37:06 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:37:06 | Image: logs/entries/2026-03-23/face_20260323_173631_e023ba_173706_759.jpg
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_ee3bbc
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:37:08 | Image: logs/entries/2026-03-23/face_20260323_173631_ee3bbc_173708_243.jpg
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:09 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:10 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:11 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_3d5d2e
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:37:11 | Image: logs/entries/2026-03-23/face_20260323_173631_3d5d2e_173711_806.jpg
+2026-03-23 17:37:11 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:12 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:13 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173632_43db01
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:37:14 | Image: logs/entries/2026-03-23/face_20260323_173632_43db01_173714_088.jpg
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:14 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [face_registry] New face: face_20260323_173715_d4e297 | gallery size: 23
+2026-03-23 17:37:15 [INFO] [database] DB: Registered face_20260323_173715_d4e297
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173715_d4e297 | Timestamp: 2026-03-23 17:37:15 | Image: logs/registered/2026-03-23/face_20260323_173715_d4e297_173715_186.jpg
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173715_d4e297
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173715_d4e297 | Timestamp: 2026-03-23 17:37:15 | Image: logs/entries/2026-03-23/face_20260323_173715_d4e297_173715_254.jpg
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:15 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:16 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173630_9ea6b0
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:37:17 | Dwell Time: 40s | Image: logs/exits/2026-03-23/face_20260323_173630_9ea6b0_173717_638.jpg
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:17 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:18 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:19 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173658_9e6df1
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173658_9e6df1 | Timestamp: 2026-03-23 17:37:20 | Image: logs/entries/2026-03-23/face_20260323_173658_9e6df1_173720_226.jpg
+2026-03-23 17:37:20 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_3d5d2e
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:37:20 | Dwell Time: 9s | Image: logs/exits/2026-03-23/face_20260323_173631_3d5d2e_173720_408.jpg
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:20 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:21 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:22 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_bd5938
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_bd5938 | Timestamp: 2026-03-23 17:37:23 | Image: logs/entries/2026-03-23/face_20260323_173631_bd5938_173723_272.jpg
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:23 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_e023ba
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:37:24 | Dwell Time: 18s | Image: logs/exits/2026-03-23/face_20260323_173631_e023ba_173724_754.jpg
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:24 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:25 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_ee3bbc
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:37:26 | Dwell Time: 18s | Image: logs/exits/2026-03-23/face_20260323_173631_ee3bbc_173726_031.jpg
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:26 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:27 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:28 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:29 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:29 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173658_9e6df1
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:29 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173729_744.jpg
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173658_9e6df1 | Timestamp: 2026-03-23 17:37:29 | Image: logs/entries/2026-03-23/face_20260323_173658_9e6df1_173729_762.jpg
+2026-03-23 17:37:29 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:30 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_808743
+2026-03-23 17:37:31 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173632_43db01
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_808743 | Timestamp: 2026-03-23 17:37:31 | Dwell Time: 59s | Image: logs/exits/2026-03-23/face_20260323_173631_808743_173731_134.jpg
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:37:31 | Dwell Time: 17s | Image: logs/exits/2026-03-23/face_20260323_173632_43db01_173731_156.jpg
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:31 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:32 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [face_registry] New face: face_20260323_173733_ba01b2 | gallery size: 24
+2026-03-23 17:37:33 [INFO] [database] DB: Registered face_20260323_173733_ba01b2
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173733_ba01b2 | Timestamp: 2026-03-23 17:37:33 | Image: logs/registered/2026-03-23/face_20260323_173733_ba01b2_173733_164.jpg
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173733_ba01b2
+2026-03-23 17:37:33 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173733_ba01b2 | Timestamp: 2026-03-23 17:37:33 | Image: logs/entries/2026-03-23/face_20260323_173733_ba01b2_173733_376.jpg
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:33 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173733_420.jpg
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:33 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:34 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_ee3bbc
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:37:35 | Image: logs/entries/2026-03-23/face_20260323_173631_ee3bbc_173734_961.jpg
+2026-03-23 17:37:35 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173658_9e6df1
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173658_9e6df1 | Timestamp: 2026-03-23 17:37:35 | Dwell Time: 6s | Image: logs/exits/2026-03-23/face_20260323_173658_9e6df1_173735_273.jpg
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:35 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173630_9ea6b0
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:37:36 | Image: logs/entries/2026-03-23/face_20260323_173630_9ea6b0_173736_626.jpg
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:36 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:37 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [face_registry] New face: face_20260323_173738_541f57 | gallery size: 25
+2026-03-23 17:37:38 [INFO] [database] DB: Registered face_20260323_173738_541f57
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173738_541f57 | Timestamp: 2026-03-23 17:37:38 | Image: logs/registered/2026-03-23/face_20260323_173738_541f57_173738_099.jpg
+2026-03-23 17:37:38 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173738_541f57
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173738_541f57 | Timestamp: 2026-03-23 17:37:38 | Image: logs/entries/2026-03-23/face_20260323_173738_541f57_173738_128.jpg
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:38 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:39 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173640_aaab77
+2026-03-23 17:37:39 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:37:39 | Dwell Time: 42s | Image: logs/exits/2026-03-23/face_20260323_173640_aaab77_173739_813.jpg
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:40 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_ee3bbc
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:37:41 | Image: logs/entries/2026-03-23/face_20260323_173631_ee3bbc_173741_106.jpg
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:41 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_bd5938
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_bd5938 | Timestamp: 2026-03-23 17:37:42 | Dwell Time: 19s | Image: logs/exits/2026-03-23/face_20260323_173631_bd5938_173742_400.jpg
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:42 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:43 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:44 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:45 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173745_710.jpg
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:45 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:46 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:47 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:48 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:49 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173635_067d30
+2026-03-23 17:37:50 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173635_067d30 | Timestamp: 2026-03-23 17:37:50 | Dwell Time: 0s | Image: logs/exits/2026-03-23/face_20260323_173635_067d30_173750_601.jpg
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:50 | Dwell Time: 5s | Image: logs/exits/2026-03-23/face_20260323_173645_fb5d51_173750_627.jpg
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:50 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:51 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:52 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:53 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:54 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:55 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:56 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173630_cade46
+2026-03-23 17:37:57 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173630_cade46 | Timestamp: 2026-03-23 17:37:57 | Dwell Time: 83s | Image: logs/exits/2026-03-23/face_20260323_173630_cade46_173757_340.jpg
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:57 | Dwell Time: 12s | Image: logs/exits/2026-03-23/face_20260323_173645_fb5d51_173757_371.jpg
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:57 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_fe88b9
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_fe88b9 | Timestamp: 2026-03-23 17:37:58 | Dwell Time: 82s | Image: logs/exits/2026-03-23/face_20260323_173631_fe88b9_173758_440.jpg
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:58 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173701_9f456a
+2026-03-23 17:37:59 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173632_43db01
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173701_9f456a | Timestamp: 2026-03-23 17:37:59 | Image: logs/entries/2026-03-23/face_20260323_173701_9f456a_173759_545.jpg
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:37:59 | Image: logs/entries/2026-03-23/face_20260323_173632_43db01_173759_575.jpg
+2026-03-23 17:37:59 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173637_fcc90a
+2026-03-23 17:37:59 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173637_fcc90a | Timestamp: 2026-03-23 17:37:59 | Dwell Time: 82s | Image: logs/exits/2026-03-23/face_20260323_173637_fcc90a_173759_685.jpg
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:37:59 | Dwell Time: 14s | Image: logs/exits/2026-03-23/face_20260323_173645_fb5d51_173759_702.jpg
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:37:59 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [face_registry] New face: face_20260323_173800_52e4a5 | gallery size: 26
+2026-03-23 17:38:00 [INFO] [database] DB: Registered face_20260323_173800_52e4a5
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: REGISTERED | Face ID: face_20260323_173800_52e4a5 | Timestamp: 2026-03-23 17:38:00 | Image: logs/registered/2026-03-23/face_20260323_173800_52e4a5_173800_106.jpg
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:00 [INFO] [track_state_manager] EXIT queued: face_id=face_20260323_173631_ee3bbc
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_ee3bbc | Timestamp: 2026-03-23 17:38:00 | Dwell Time: 19s | Image: logs/exits/2026-03-23/face_20260323_173631_ee3bbc_173800_830.jpg
+2026-03-23 17:38:00 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:01 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173645_fb5d51
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:38:02 | Image: logs/entries/2026-03-23/face_20260323_173645_fb5d51_173801_986.jpg
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:02 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:03 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173638_001e76
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173638_001e76 | Timestamp: 2026-03-23 17:38:04 | Image: logs/entries/2026-03-23/face_20260323_173638_001e76_173804_273.jpg
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:04 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:05 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:06 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [track_state_manager] ENTRY queued: face_id=face_20260323_173631_fe88b9
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: ENTRY | Face ID: face_20260323_173631_fe88b9 | Timestamp: 2026-03-23 17:38:07 | Image: logs/entries/2026-03-23/face_20260323_173631_fe88b9_173807_383.jpg
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:07 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EMBEDDING | Face ID: UNKNOWN | Best Sim: 1.0000
+2026-03-23 17:38:08 [INFO] [pipeline] Flushing active tracks at end of video...
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_bd5938 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 45s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 9s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 62s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_210b0f | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 96s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173638_001e76 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 4s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 32s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 71s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173647_302a7b | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 80s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 57s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173701_9f456a | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 9s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 71s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173658_9e6df1 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 39s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_e023ba | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 62s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173700_ad915a | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 0s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173640_aaab77 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 71s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_3d5d2e | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 57s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173630_9ea6b0 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 32s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173658_9e6df1 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 39s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173701_9f456a | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 9s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173733_ba01b2 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 35s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173715_d4e297 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 53s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173738_541f57 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 30s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173647_302a7b | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 80s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173700_ad915a | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 0s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173701_9f456a | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 9s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173632_43db01 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 9s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173645_fb5d51 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 7s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173638_001e76 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 4s | Image: none
+2026-03-23 17:38:08 [INFO] [EventLogger] EVENT: EXIT | Face ID: face_20260323_173631_fe88b9 | Timestamp: 2026-03-23 17:38:08 | Dwell Time: 1s | Image: none
