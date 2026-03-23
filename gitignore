@@ -9,22 +9,21 @@ __pycache__/
 *.pyo
 .pytest_cache/
 
-# Model weights (large files — download separately)
+# Model weights (too large — downloaded at runtime)
 *.pt
 *.onnx
-*.bin
 
-# Database (generated at runtime)
+# Database (generated at runtime — but keep sample below)
 face_tracker.db
 
-# Log images (generated at runtime — keep folder structure only)
-logs/entries/*/
-logs/exits/*/
-logs/registered/*/
-logs/events.log
+# Video files (too large)
+*.mp4
+*.avi
+*.mov
+*.mkv
 
-# InsightFace downloaded models
-~/.insightface/
+# InsightFace cache
+.insightface/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -33,12 +32,10 @@ logs/events.log
 .DS_Store
 Thumbs.db
 
-# Video files
-*.mp4
-*.avi
-*.mov
-*.mkv
-
-# IDE
+# IDE settings
 .vscode/settings.json
 .idea/
+
+# NOTE: logs/ folder IS committed with sample images
+# The sample images in logs/ show the system working
+# Do not add logs/ to gitignore
