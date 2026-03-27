@@ -1,14 +1,8 @@
 # Intelligent Face Tracker — AI-Powered Unique Visitor Counter
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
-[![YOLOv8](https://img.shields.io/badge/Detection-YOLOv8-green)](https://ultralytics.com)
-[![InsightFace](https://img.shields.io/badge/Recognition-InsightFace%20ArcFace-orange)](https://insightface.ai)
-[![Flask](https://img.shields.io/badge/Dashboard-Flask-lightgrey)](https://flask.palletsprojects.com)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 **Problem:** Count unique visitors from a video stream without double-counting re-entries or the same face appearing across multiple frames.
 
@@ -28,7 +22,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Module | Technology |
 |---|---|
@@ -45,18 +39,18 @@
 
 ---
 
-## ✨ Unique Features (Beyond the Problem Statement)
+##  Unique Features (Beyond the Problem Statement)
 
 These enterprise-grade additions were built to make the system production-ready, not just demo-ready:
 
-- **⏳ Dwell Time Analytics** — Calculates exactly how long each person stayed in frame per session and surfaces the "Avg Dwell Time" live on the dashboard — not just entry/exit timestamps.
-- **🛡️ Graceful Crash Recovery** — If the process terminates unexpectedly (SIGKILL, power loss), orphaned open sessions are detected on the next startup and automatically closed with synthetic `EXIT` events, keeping the database fully consistent.
-- **📈 Automated Compute Profiler** — A background daemon thread uses `psutil` to sample CPU and RAM every second, displays metrics on the video HUD, and writes them to `logs/compute_profile.csv` for post-run analysis.
-- **🌐 Live Web Dashboard** — A built-in Flask application provides a real-time UI to start/stop the pipeline, switch between video file and RTSP stream, view live face crops, and inspect database metrics — no external tooling required.
+- **Dwell Time Analytics** — Calculates exactly how long each person stayed in frame per session and surfaces the "Avg Dwell Time" live on the dashboard — not just entry/exit timestamps.
+- **Graceful Crash Recovery** — If the process terminates unexpectedly (SIGKILL, power loss), orphaned open sessions are detected on the next startup and automatically closed with synthetic `EXIT` events, keeping the database fully consistent.
+- **Automated Compute Profiler** — A background daemon thread uses `psutil` to sample CPU and RAM every second, displays metrics on the video HUD, and writes them to `logs/compute_profile.csv` for post-run analysis.
+- **Live Web Dashboard** — A built-in Flask application provides a real-time UI to start/stop the pipeline, switch between video file and RTSP stream, view live face crops, and inspect database metrics — no external tooling required.
 
 ---
 
-## 🔒 Duplicate Prevention Strategy
+## Duplicate Prevention Strategy
 
 Preventing double-counting is the core correctness challenge. The system uses a layered approach:
 
@@ -68,7 +62,7 @@ Preventing double-counting is the core correctness challenge. The system uses a 
 
 ---
 
-## 🧠 System Architecture & AI Planning
+## System Architecture & AI Planning
 
 ### Planning Summary
 
@@ -151,7 +145,7 @@ Frame skipping (`frame_skip: 3`) means heavy models run every 4th frame; DeepSOR
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Python 3.10+
@@ -203,7 +197,7 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 ---
 
-## 📄 Sample `config.json`
+##  Sample `config.json`
 
 ```json
 {
@@ -260,7 +254,7 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 ---
 
-## 📤 Output Description
+##  Output Description
 
 ### `logs/events.log` (real sample output)
 
@@ -287,37 +281,30 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 ---
 
-## 🎬 Demo Video
+## Demo Video
 
-```
-**[Click here to watch the full demo on ScreenApp](https://screenapp.io/app/v/1N2yn56c8z)**
-```
+[Click here to watch the full demo on ScreenApp](https://screenapp.io/app/v/1N2yn56c8z)
 
----
-
-## 📸 Screenshots
+##  Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/1.png)
-
-### Face Detection & Tracking
-![Detection](screenshots/2.png)
-
-### Face Recognition (ArcFace Embeddings)
-![Recognition](screenshots/3.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### Entry Logs
-![Entries](screenshots/4.png)
+![Entries](screenshots/entries.png)
 
 ### Registered Faces
-![Registered Faces](screenshots/5.png)
+![Registered Faces](screenshots/registered.png)
+
+### Exits
+![Exits](screenshots/exits.png)
 
 ### Unique Visitor Stats
-![Stats](screenshots/6.png)
+![Stats](screenshots/stats.png)
 
 ---
 
-## 🔍 Code Highlights
+##  Code Highlights
 
 | Module | Role | Key Decision |
 |---|---|---|
@@ -336,7 +323,7 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 ---
 
-## 📝 Assumptions Made
+##  Assumptions Made
 
 1. **Camera angle:** System is tuned for high-mounted, top-down, or slightly angled cameras. Detection thresholds (`MIN_DETECTION_AREA = 1500`, confidence `0.65`) reflect this.
 2. **Re-entry dwell time:** If the same person leaves and re-enters, the unique count is not incremented, but a fresh dwell time is calculated for the new session.
