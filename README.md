@@ -287,9 +287,6 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 ##  Screenshots
 
-### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
-
 ### Entry Logs
 ![Entries](screenshots/entries.png)
 
