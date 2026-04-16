@@ -54,8 +54,8 @@ These enterprise-grade additions were built to make the system production-ready,
 
 Preventing double-counting is the core correctness challenge. The system uses a layered approach:
 
-1. **Cosine Similarity Matching** — Each new embedding is compared against all registered faces. A cosine distance below `similarity_threshold` (default: `0.35`) identifies the face as a known visitor — no new UUID is created.
-2. **Soft Gate** — A secondary `soft_threshold` (default: `0.28`) catches borderline near-misses: faces too similar to be new but not confidently matched are blocked from registration rather than creating a duplicate entry.
+1. **Cosine Similarity Matching** — Each new embedding is compared against all registered faces. A cosine distance below `similarity_threshold` (default: `0.3`) identifies the face as a known visitor — no new UUID is created.
+2. **Soft Gate** — A secondary `soft_threshold` (default: `0.25`) catches borderline near-misses: faces too similar to be new but not confidently matched are blocked from registration rather than creating a duplicate entry.
 3. **Temporal Vote Buffer (3-frame)** — A face must be consistently identified over 3 consecutive frames before an identity decision is committed. This prevents flicker from head turns, partial occlusions, or lighting changes from triggering spurious registrations.
 4. **Running-Mean Embedding Update** — Once registered, a face's stored embedding updates as a running mean across subsequent detections, adapting to appearance changes without replacing the identity.
 5. **`TrackStateManager` Session Guard** — Even if recognition fires multiple times for the same person in one visit, the state manager enforces exactly **one** `ENTRY` and **one** `EXIT` per session at the application layer.
@@ -130,7 +130,7 @@ Unique visitor count = number of distinct UUIDs in the `faces` table. Re-identif
 
 ### Compute Load Estimates
 
-Frame skipping (`frame_skip: 3`) means heavy models run every 4th frame; DeepSORT handles the rest.
+Frame skipping (`frame_skip: 2`) means heavy models run every 3rd frame; DeepSORT handles the rest.
 
 | Component | CPU Load | GPU Load | Approx. Inference Time |
 |---|---|---|---|
@@ -202,20 +202,23 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 ```json
 {
   "video_source": "video_sample1.mp4",
-  "rtsp_url": "rtsp://username:password@camera_ip:554/stream",
-  "use_rtsp": false,
+  "rtsp_url": "rtsp://127.0.0.1:8554/mystream",
+  "use_rtsp": true,
   "detection": {
     "yolo_model": "yolov8n-face.pt",
-    "confidence_threshold": 0.65,
-    "frame_skip": 3,
+    "confidence_threshold": 0.45,
+    "frame_skip": 2,
     "input_size": 640
   },
   "recognition": {
     "model_name": "buffalo_l",
-    "similarity_threshold": 0.35,
-    "soft_threshold": 0.28,
+    "similarity_threshold": 0.3,
+    "soft_threshold": 0.25,
     "embedding_size": 512,
-    "det_size": [640, 640]
+    "det_size": [
+      640,
+      640
+    ]
   },
   "tracking": {
     "max_age": 30,
@@ -228,13 +231,17 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
     "log_file": "logs/events.log",
     "log_level": "INFO",
     "save_face_crops": true,
-    "crop_size": [112, 112]
+    "crop_size": [
+      112,
+      112
+    ]
   },
   "database": {
     "path": "face_tracker.db"
   },
   "display": {
     "show_window": false,
+    "window_name": "Face Tracker",
     "draw_bboxes": true
   }
 }
@@ -244,10 +251,10 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 | Parameter | Default | Effect |
 |---|---|---|
-| `frame_skip` | `3` | Run YOLO every 4th frame; DeepSORT tracks all frames |
-| `confidence_threshold` | `0.65` | Minimum YOLO detection confidence |
-| `similarity_threshold` | `0.35` | Cosine similarity for face match (lower = stricter match) |
-| `soft_threshold` | `0.28` | Below this → register as new face; above → block as likely duplicate |
+| `frame_skip` | `2` | Run YOLO every 3rd frame; DeepSORT tracks all frames |
+| `confidence_threshold` | `0.45` | Minimum YOLO detection confidence |
+| `similarity_threshold` | `0.30` | Cosine similarity for face match (lower = stricter match) |
+| `soft_threshold` | `0.25` | Below this → register as new face; above → block as likely duplicate |
 | `exit_patience_frames` | `15` | Frames a track must be absent before firing an exit event |
 | `min_hits` | `2` | Track confirmations required before recognising a face |
 | `use_rtsp` | `false` | Set `true` to switch from video file to live RTSP stream |
@@ -314,7 +321,7 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 | `TrackStateManager` | Session state machine | Enforces exactly 1 entry + 1 exit per session regardless of frame count |
 
 **Key Optimisations:**
-- `frame_skip: 3` reduces heavy-model calls by 75% while DeepSORT maintains smooth tracking.
+- `frame_skip: 2` reduces heavy-model calls by 75% while DeepSORT maintains smooth tracking.
 - Crash recovery via orphaned-session detection on startup keeps the DB consistent after force-quits.
 - Compute profiler runs as a daemon thread with negligible overhead (<1ms per sample).
 
@@ -322,7 +329,7 @@ A Colab notebook (`Face_Tracker_Colab.ipynb`) is included for cloud-based testin
 
 ##  Assumptions Made
 
-1. **Camera angle:** System is tuned for high-mounted, top-down, or slightly angled cameras. Detection thresholds (`MIN_DETECTION_AREA = 1500`, confidence `0.65`) reflect this.
+1. **Camera angle:** System is tuned for high-mounted, top-down, or slightly angled cameras. Detection thresholds (`MIN_DETECTION_AREA = 1500`, confidence `0.45`) reflect this.
 2. **Re-entry dwell time:** If the same person leaves and re-enters, the unique count is not incremented, but a fresh dwell time is calculated for the new session.
 3. **Crash recovery scope:** Forceful termination (SIGKILL, power loss) marks all open sessions as exited on the next startup. Graceful shutdown always closes sessions cleanly.
 4. **First-run internet access:** InsightFace `buffalo_l` weights (~200MB) are downloaded automatically on the first run.
