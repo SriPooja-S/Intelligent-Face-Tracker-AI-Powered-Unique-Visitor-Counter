@@ -1,7 +1,7 @@
 {
   "video_source": "video_sample1.mp4",
-  "rtsp_url": "rtsp://username:password@camera_ip:554/stream",
-  "use_rtsp": false,
+  "rtsp_url": "rtsp://127.0.0.1:8554/mystream",
+  "use_rtsp": true,
   "detection": {
     "yolo_model": "yolov8n-face.pt",
     "confidence_threshold": 0.45,
@@ -43,4 +43,3 @@
     "draw_bboxes": true
   }
 }
-
